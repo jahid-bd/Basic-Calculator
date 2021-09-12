@@ -1,0 +1,122 @@
+body{
+    background: #fcfcf2;
+}
+.calculator{
+    width: 420px;
+    /* height: 600px; */
+    margin: 50px auto;
+    padding: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #034d97;
+    border-radius: 5px;
+    position: relative;
+}
+#header{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    left: 35%;
+}
+.calculator .display{
+    background: #fff;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 30px 10px;
+}
+/* .calculator .display h1{
+    border-bottom: 1px solid #717171;
+    text-align: right;
+    font-size: 50px;
+} */
+#screen{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 42px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid #717171;
+}
+#screen:focus{
+    outline: none;
+    box-shadow: none;
+}
+.button-section{
+    margin-top: 15px;
+    /* background: #717171; */
+}
+
+table{
+    width: 100%;
+}
+td{
+    background: #F1F1F1;
+    /* border: 2px solid #717171; */
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.btn,.btn-equal,.btn-symbol{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    color: #fff;;
+    border: 2px solid #717171;
+    border-left: none;
+    border-bottom: none;
+}
+.first-row button{
+    border-top: none;
+}
+.btn-operator, .btn-equal{
+    border-right: none;
+}
+.btn-percent {
+    font-size: 35px;
+}
+.btn:focus, .btn-equal:focus, .btn-symbol:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-numbers{
+    color: #034d97;
+    background: #F1F1F1;
+}
+.btn-numbers:hover{
+    color: #ce0607;
+}
+.btn-c{
+    background: #ce0607;
+    color: #fff;
+}
+.btn-symbol{
+    background: #aeaeae;
+    color: #fff;
+}
+.btn-operator{
+    background: #989898;
+}
+.btn-equal{
+    background: #2f82d5;
+}
+.btn-c:hover, .btn-symbol:hover, .btn-operator:hover, .btn-equal:hover{
+    color: #fea1a1;
+}
+
+/* .btn-c, .btn-symbol, .btn-operator, .btn-equal{
+    text-shadow: 2px 2px 2px  black;
+} */
